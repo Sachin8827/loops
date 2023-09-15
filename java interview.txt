@@ -1,0 +1,1241 @@
+1. What is java? 
+Java is a general purpose object oriented class based prgramming language . it is among the mostly  used programming language . JAVA is alsp used as a computing platform. It is considered as one of the most secure and reliable programming language prefferd by most organisations to build their projects. it is widely used for developing java applications at laptops data setters, gaming consoles , scientific super computers etc.
+  It is used for developing android apps and helps you to create  enterprise softwre wide range of models app, scientific computing applictions java programming hardware devices.
+
+2. What is public static void main(String args[])?
+public - Access modifier which allows to access the class from anywhere it means the method is visible for classes and other packages.
+Static - It is keyword helps the main () to run without creating objects.
+void -  It is a keyword when we do not want to return anything from function of a method main.
+String args[]- It is used to commanand line arguements of String type array.
+
+3. What is System.out.println(); ?
+System is a final class from java lang package.
+out is class variable type print stream declared in System class.
+print is method of print stream class.
+
+4. Why java is multithreaded language?
+Multithreading is a Java feature that allows concurrent execution of two or more parts of a program for maximum utilization of CPU. Each part of such program is called a thread. So, threads are light-weight processes within a process.
+
+5. What do you understand by Java virtual machine?
+Java Virtual Machine is a virtual machine that enables the computer to run the Java program. JVM acts like a run-time engine which calls the main method present in the Java code. JVM is the specification which must be implemented in the computer system.
+
+6.  Why is the main method static?
+Because the object is not required to call the static method. If we make the main method non-static, JVM will have to create its object first and then call main() method which will lead to the extra memory allocation.
+
+7.  What is Object Oriented Programming (OOPs)?
+Object Oriented Programming (also known as OOPs) is a programming paradigm where the complete software operates as a bunch of objects talking to each other. An object is a collection of data and the methods which operate on that data.
+
+8.  What is a Class?
+A class is a building block of Object Oriented Programs. It is a user-defined data type that contains the data members and member functions that operate on the data members. It is like a blueprint or template of objects having common properties and methods.
+
+9.  What is an Object?
+An object is an instance of a class. Data members and methods of a class cannot be used directly. We need to create an object (or instance) of the class to use them. In simple terms, they are the actual world entities that have a state and behavior.
+
+10. what is Encpasulation ?
+Encapsulation in Java is a process of wrapping code and data together into a single unit, for example, a capsule which is mixed of several medicines.
+
+We can create a fully encapsulated class in Java by making all the data members of the class private. Now we can use setter and getter methods to set and get the data in it. It is a way to achieve data hiding in Java because other class will not be able to access the data through the private data members.  Wrapping class is a encapsulation of all the data classes. 
+
+11. What is Abstraction?
+Data Abstraction may also be defined as the process of identifying only the required characteristics of an object ignoring the irrelevant details. The properties and behaviors of an object differentiate it from other objects of similar type and also help in classifying/grouping the objects.
+   We can achieve abstraction in 2 ways -
+a). using abstract class
+b). using interface
+
+12.What is Polymorphism in Java?
+Polymorphism is considered one of the important features of Object-Oriented Programming. Polymorphism allows us to perform a single action in different ways. In other words, polymorphism allows you to define one interface and have multiple implementations. The word “poly” means many and “morphs” means forms, So it means many forms.
+  Types of Java polymorphism
+In Java polymorphism is mainly divided into two types: 
+a). Compile time polymorphism
+b). Runtime polymorphism
+
+13.  What is Inheritance ?
+Inheritance is an important pillar of OOP(Object-Oriented Programming). It is the mechanism in Java by which one class is allowed to inherit the features(fields and methods) of another class. In Java, Inheritance means creating new classes based on existing ones. A class that inherits from another class can reuse the methods and fields of that class. In addition, you can add new fields and methods to your current class as well.  
+  Inheritance represents the IS-A relationship which is also known as a parent-child relationship.
+Why use inheritance in java
+For Method Overriding (so runtime polymorphism can be achieved).
+For Code Reusability.
+
+14. What are some commonly used Object Oriented Programming Languages?
+OOPs paradigm is one of the most popular programming paradigms. It is widely used in many popular programming languages such as:
+
+C++
+Java
+Python
+Javascript
+C#
+Ruby.
+
+15. What is the difference between overloading and overriding?
+A compile-time polymorphism feature called overloading allows an entity to have numerous implementations of the same name. Method overloading and operator overloading are two examples.
+
+Overriding is a form of runtime polymorphism where an entity with the same name but a different implementation is executed. It is implemented with the help of virtual functions.
+
+16. What is an interface?
+A unique class type known as an interface contains methods but not their definitions. Inside an interface, only method declaration is permitted. You cannot make objects using an interface. Instead, you must put that interface into use and specify the procedures for doing so.
+
+17.  How much memory does a class occupy?
+1 byte on runtime.
+
+18. What are the advantages of OOPS ?
+Advantages of OOP
+
+It follows a bottom-up approach.
+It models the real word well.
+It allows us the reusability of code.
+Avoids unnecessary data exposure to the user by using the abstraction.
+OOP forces the designers to have a long and extensive design phase that results in better design and fewer flaws.
+Decompose a complex problem into smaller chunks.
+Programmer are able to reach their goals faster.
+Minimizes the complexity.
+Easy redesign and extension of code that does not affect the other functionality.
+
+19. What are the disadvantages ?
+Disadvantages of OOP
+
+Proper planning is required.
+Program design is tricky.
+Programmer should be well skilled.
+Classes tend to be overly generalized.
+
+20.What do you understand by pure object-oriented language? Why Java is not a pure object-oriented programming language?
+The programming language is called pure object-oriented language that treats everything inside the program as an object. The primitive types are not supported by the pure OOPs language. There are some other features that must satisfy by a pure object-oriented language:
+
+Encapsulation
+Inheritance
+Polymorphism
+Abstraction
+All predefined types are objects
+All user-defined types are objects
+All operations performed on objects must be only through methods exposed to the objects.
+Java is not a pure object-oriented programming language because pre-defined data types in Java are not treated as objects. Hence, it is not an object-oriented language.
+
+21. What is the base case in recursion?
+The base case in recursion is the condition that specifies when the recursion should terminate. It is the simplest form of the problem that doesn't require further recursion.
+
+22. What is the difference between direct and indirect recursion?
+In direct recursion, a function calls itself directly. In indirect recursion, there is a chain of function calls where one function calls a second function, which in turn calls the first function or another function in the chain.
+
+23.What are the advantages of using recursion in Java?
+Recursion can provide an elegant and concise solution for problems that have a recursive structure.
+It can simplify code by breaking down complex problems into smaller, more manageable subproblems.
+Recursive solutions often closely reflect the problem's definition or mathematical formulation.
+It is an alternate of the loops.
+
+24. What are the limitations or drawbacks of recursion in Java?
+
+Recursive functions can be less efficient than iterative solutions due to the overhead of function calls and maintaining the call stack.
+Recursive solutions may consume a large amount of memory if the recursion depth is too high.
+Recursive functions require careful design to ensure they terminate correctly.
+
+25. Write a simple programme of recurrsion in java ?
+public static int factorial(int n) 
+{
+    if (n == 0) 
+    {
+        return 1;
+    } else 
+    {
+        return n * factorial(n - 1);
+    }
+}
+
+26. What is the time complexity of recursive algorithms?
+The time complexity of recursive algorithms can vary depending on the problem and the implementation. It is generally represented using Big O notation, similar to iterative algorithms. The time complexity should be analyzed based on the number of recursive calls and the work done within each call.
+
+27. When should you use recursion, and when should you avoid it?
+Recursion should be used when the problem or task at hand can be naturally divided into smaller subproblems that can be solved independently.
+When the recursion depth could become too large, leading to stack overflow errors and excessive memory usage.
+When the code readability and maintainability could be compromised due to complex recursion logic.
+
+28.  Why the main() method is public static?
+If the main() method is non-static, then JVM needs to create an instance of the class, and there would be ambiguity if the constructor of that class takes an argument – which constructor should be called by JVM and what parameters should be passed? We know that JVM can’t instantiate a Java class without calling a constructor method.
+
+29. Can we overload the main() method in Java?
+Yes, We can overload the main() method. A Java class can have any number of main() methods. But to run the java class, the class should have a main() method with signature as public static void main(String[] args).
+
+30.  Can we declare the main() method as private or protected or with no access modifier?
+No, the main() method must be public. You can’t define the main() method as private or protected or with no access modifier. This is because to make the main() method accessible to JVM. 
+
+31. Can we declare the main() method as a non-static?
+No, the main() method must be declared as static so that JVM can call the main() method without instantiating its class. If you remove ‘static’ from the main() method signature, the compilation will be successful but the program fails at runtime. 
+
+32. Can we change the return type of the main() method?
+No, the return type of the main() method must be void only. Any other type is not acceptable. 
+
+33.   Can the main() method take an argument other than String array?
+No, an argument of the main() method must be a String array. But, from the introduction of var args, you can pass var args of string type as an argument to the main() method. Again, var args are nothing but the arrays. 
+
+34. Can we run define Java Class without the main() method?
+No, We cannot define a class without the main() method starting from Java 7.
+
+35 Can we make the main final in Java?
+Yes, you can make the main() method final. 
+
+36. What is an Array?
+An Array is a data structure that defines an index-based collection of a fixed number of homogeneous data elements. This means that all elements in the array have the same data type and Array a starts from index 0.
+
+For example, This is an array of 10 elements. All the elements are integers and homogeneous.
+
+37. What Is the Advantage and Disadvantage of an Array?
+Advantage of an Array
+-> The main use of Array is used to store multiple values in a single variable, instead of declaring separate variables for each value.
+The disadvantage of an Array
+Size Limit: We can store the only fixed size of elements in the array. It doesn't grow its size at runtime.
+
+Arrays are Strongly-Typed this means that all elements in the array have the same data type. We can not store different types of data in an Array. 
+
+38. Can You Pass the Negative Number in Array Size?
+No, you can not pass the negative number as Array size. If you pass a negative number in Array size then you will not get the compiler error. Instead, you will get the NegativeArraySizeException at run time.
+
+39.  When ArrayIndexOutOfBoundsException occur?
+ArrayOutOfBoundsException is thrown when an attempt is made to access the Array with an illegal index. For example, an illegal index means if the index is either negative or greater than or equal to the size of the Array.
+
+40.  Can You Declare an Array Without Array Size?
+No, you can not declare Array without Array size. You will get a compile-time error.
+
+41. find output?
+class Test
+{
+	public static void main(String args[])
+	{
+		System.out.println('A'+'B');
+	}
+}
+ans. 131, because it prints the sum of  the unicode of the characters.
+
+42. find output?
+class Test
+{
+	public static void main(String args[])
+	{
+		System.out.println("A"+"B"+'A');
+	}
+}
+ans. ABA beacause if we conacate any type like char, int, float etc.  the result will also string ...
+
+43.find output?
+ class Test 
+{
+	public static void main(String args[])
+	{
+		System.out.print(20+ 1.34f + "A" + "B");
+	}
+}
+ans. 20 and 1.34f will be added and then 21.34 will be concatenated with “A” and “B”, hence output will be 21.34AB.
+
+44. find ouput?
+class Test 
+{
+    public static void main(String[] args) 
+	{
+        	char [] str={'i','n','c','l','u','d','e','h','e','l','p'};
+        	System.out.println(str.toString());
+    	}
+}
+ans. str is a character array, if you try to print str.toString() it will not converted to string because str is an object of character array that will print an address in string format.
+
+45. find output?
+class Test 
+{
+    	public static void main(String[] args) 
+	{
+        	System.out.print("Hello");
+        	System.out.println("Guys!");
+    	}
+}
+ans. HelloGuys!
+
+System.out.print() does not print new line after printing string, while System.out.println(); prints new line after printing string. Hence output will be HelloGuys! and then new line.
+
+46. Find output?
+class Test {
+    	public static void main(String[] args) 	
+	{
+        	char a=0x41;	//Unicode of 'A'
+        	char b=0x42;	//Unicode of 'B'
+        
+       		System.out.print(a+"" + b+"");
+        	System.out.print("-");
+        	System.out.print(a+b);       
+    	}
+}
+ans. a+"" and b+"" will be converted into string, .toString() or +"" after variable or value converts value into the string and a+b will be added because they are not converted into string. Hence output will be AB-131.
+
+47. Find output? 
+class Test
+{
+    public static void main(String args[])
+    {
+        const int a=10;
+        System.out.println(a);
+  
+    }
+}
+ans. Error:
+illegal start of expression.
+
+JAVA does not support the const keyword, instead of const, final keyword is used.
+
+48. Find ouput?
+class Test
+{
+    public static void main(String args[])
+    {
+        boolean ans=false;
+        if(ans=true)
+            System.out.print("Done");
+        else
+            System.out.print("Fail");
+    }
+}
+ans. Done
+
+in condition ans=true, the value of ans becomes true hence condition is true.
+
+49. Find output?
+class Test
+{
+    public static void main(String args[])
+    {
+        int x=5,y;
+        y= ++x + x++ + --x;
+        System.out.println(x + "," + y);
+    }
+}
+ans. 6, 18
+here, ++x evaluates first, value of x will be 6, x++ evaluates after adding starting two terms ++x + x++ [6+6], and then x will be 7 (due to x++), --x will evaluate before adding value in previous result, so expression will solve like 6+6+6.
+
+50. Find output?
+class Test
+{
+    public static void main(String args[])
+    {
+        byte a,b;
+        a=10; b=20;
+        b=assign(a);
+        System.out.println(a +","+ b);
+  
+          
+    }
+    public static byte assign(byte a)
+    {
+        a+=100;
+        return a;
+    }
+      
+}
+ans. 10, 110
+
+Here variable a in main and a in assign are different, only value of a (10) will pass into function assign, value of a will remain same, answer will 10, 110.
+
+51. class Test
+{
+    public static void main(String args[])
+    {
+        System.out.print( ((true && true) || false) );
+    }
+}
+ans. True
+
+52. class Test
+{
+    public static void main(String args[])
+    {
+        int a,i;
+        i=10;
+         
+        a=a+i;
+        System.out.print(a);
+         
+    }
+}
+ans. ERROR: The local variable a may not have been initialized.
+
+Variable must be initialized before using it. In the statement a=a+i; you are adding value of i in the variable a and a is not initialized.
+
+53. class Opr 
+   {
+    	public static void main(String[] args) 
+        {
+      		int a=0;
+      		System.out.print((a==true)? "Hello": "Hi");
+    	}
+}
+ans. ERROR: The operator == is undefined for the argument type(s) char, boolean.
+
+In Java programming Language, Operator == will work with true/false (boolean values) and here a is not a boolean value. Hence ERROR will be occurred.
+
+54. class Test 
+{
+    	public static void main(String[] args) 
+	{
+        	System.out.print(0x000A + 0b1010 + 0xff);
+    	}
+}
+ans. 275
+
+Here, 0x000A (Hex) is 10, 0b1010 (Binary) is 10 and 0xff (hex) is 255.
+
+55. class Test 
+{
+    public static void main(String [] args) 
+    {
+        System.out.println( (10|5)+"-"+ (10|6));
+    }
+}
+ans. 15-14
+
+Consider the binary of 10, 5 and 6. Solve 10|5 = Using Binary (1010|0101 = 1111 = 15) and 10|6 = Using Binary (1010|0110 = 1110 = 14).
+
+56. if(true && false && true || false)
+    System.out.println("True.");
+else
+    System.out.println("False");
+ans. False.
+
+In the statement && and || operators are used, priority of operator && is high. Below the execution steps:
+
+true && false = false
+false && true = false
+false || false= false
+Finally, expression will return false.
+
+57.class Test
+{
+    public static void main(String args[])
+    {
+        int x=1;        
+        if((boolean)x==true)
+            System.out.println("True.");
+        else
+            System.out.println("False.");
+         
+    }
+}
+ans. Error
+
+Error "inconvertible types" will occur. Type mismatch problem cannot convert integer to boolean.
+
+58.class Test
+{
+    public static void main(String args[])
+    {
+        int ok=10;
+        switch(ok)
+        {
+            default:
+                System.out.println("default");
+            case 0:
+                System.out.println("true");
+            case 1:
+                System.out.println("false");
+        }
+    }
+}
+ans. default true False.
+
+59. public class Test
+{
+    public static void main(String args[])
+    {
+        boolean ok=true;
+        switch(ok)
+        {
+            case true:
+                System.out.println("true");
+            break;
+            case false:
+                System.out.println("false");
+            break;
+            default:
+                System.out.println("default");
+            break;
+        }       
+    }
+}
+ans. Error
+
+Compilation time error "incompatible types" will occur, we cannot use boolean value with switch statement.
+
+60. public class temp
+{
+    public static void main(String args[])
+    {
+        int x=1;    
+        if(x)
+            System.out.println("True");
+        else
+            System.out.println("False");
+    }
+}
+ans. Error
+
+We cannot use an integer value within conditional expression; value must be whether true or false i.e. only boolean values are allowed.
+
+61.
+public class Test
+{
+    public static void main(String args[])
+    {
+        int x=10;
+        System.out.println( ((x=5)?"yes":"no") );
+    }
+}
+ans. Error
+
+Only boolean value is allowed in conditional expression.
+
+62. double x = 6.2;
+if(x-- >= 6.0)
+    System.out.print("first ");
+     
+if(--x >= 5.0)
+    System.out.print("second ");
+ 
+if(x-- >= 4.0)
+    System.out.print("third ");
+else
+    System.out.print("fourth ");
+ans. first third
+
+63. public class Test
+{
+    public static void main(String agrs[])
+    {
+        int x=10;
+         
+        switch(x)
+        {
+            case  5:    x+= 5;
+            case 10:    x+=10;
+            case 15:    x+=15;
+            case 20:    x+=20;
+        }
+        System.out.println(x);
+    }
+}
+ans. 55
+
+Since there is no break in switch blocks, program's execution move to case 10: and fall down to case 20:
+
+64. Which Scanner class method is used to read string value from the user?
+ans. next() and nextLine() both methods can be used to read string from the user.
+
+65.  Which method does not store string value after space?
+ans. next()
+
+next() method does not store string value after space.
+
+66. Consider the following object declaration statement
+Scanner objectName= new Scanner(System.in);
+What is System.in in this declaration?
+ans. Reference to Input Stream
+
+67. char ch;
+Scanner SC=new Scanner (System.in);
+ch=SC.nextChar();
+ans. cahr is not a methid of scanner class.
+
+68. What is the correct syntax of for each loop?
+ans. for(data_type variable:collection)
+{body;}
+
+69. public class Test
+{
+    public static void main(String agrs[])
+    {
+        for(int i=1; i<=10; i++);
+        System.out.print(i);
+    }
+}
+ans. error
+Cannot find symbol – variable i,i is a block variable that can be used with in loop body only.
+
+70. public class Test
+{
+	public static void main(String agrs[])
+	{
+		for(int i=1, int j=1; i<5 ; i++, j++)
+			System.out.print(i+""+j);
+	}
+}
+ans. Consider this statement int i=1, int j=1 we can not declare variables like that. Correct form is int i=1,j=1 correct loop statement is: for(int i=1,j=1; i<5; i++,j++)
+
+71.  What is Abstract in Java?
+
+Ans: Abstract is a non-access modifier in java that is applicable for classes, interfaces, methods, and inner classes.
+
+72. What is Abstract method in Java?
+
+Ans: A method which is declared with abstract modifier and has no implementation (means no body) is called abstract method in java.
+
+It does not contain any body. It has simply a signature declaration followed by a semicolon.
+
+73. Can an abstract method be declared as static?
+
+Ans: No.
+
+74.  Can an abstract method be declared with private modifier?
+
+Ans: No, it cannot be private because the abstract method must be implemented in the child class. If we declare it as private, we cannot implement it from outside the class.
+
+75.  What is Concrete method in Java?
+
+Ans: A concrete method in Java is a method which has always the body. It is also called a complete method in java.
+
+76.  When to use Abstract class in Java?
+
+Ans: An abstract class can be used when we need to share the same method to all non-abstract sub classes with their own specific implementations.
+
+77. When to use Abstract method in Java?
+Ans: An abstract method can be used
+
+a) When the same method has to perform different tasks depending on the object calling it.
+b) When you need to be overridden in its non-abstract subclasses.
+
+78.  Is it possible to create an object of abstract class in Java?
+
+Ans: No. It is not possible but we can create an object of its subclass.
+
+79.  Can an abstract class have constructor?
+
+Ans: Yes.
+
+80.  Can we define an abstract method inside non-abstract class (concrete class)?
+
+Ans: No, we cannot define an abstract method in non-abstract class.
+
+81. Do we have Copy Constructor in Java?
+Like C++, Java also supports copy constructor. But, unlike C++, Java doesn’t create a default copy constructor if you don’t write your own.
+To copy the values of one object into another in java, you can use:
+Constructor
+Assigning the values of one object into another
+clone() method of Object class
+
+82. What is Constructor Chaining ?
+Constructor Chaining is a technique of calling another constructor from one constructor. this() is used to call same class constructor where as super() is used to call super class constructor.
+
+83. Can we call sub class constructor from super class constructor?
+No. There is no way in java to call sub class constructor from a super class constructor.
+
+84. What happens if you keep a return type for a constructor?
+Ideally, Constructor must not have a return type. By definition, if a method has a return type, it’s not a constructor.(JLS8.8 Declaration) It will be treated as a normal method. But compiler gives a warning saying that method has a constructor name.
+
+85. How a no – argument constructor is different from default Constructor?
+If a class contains no constructor declarations, then a default constructor with no formal parameters and no throws clause is implicitly declared.
+If the class being declared is the primordial class Object, then the default constructor has an empty body. Otherwise, the default constructor simply invokes the superclass constructor with no arguments.
+
+86. What are private constructors and where are they used?
+Like any method we can provide access specifier to the constructor. If it’s made private, then it can only be accessed inside the class.
+The major scenarios where we use private constructor:
+Internal Constructor chaining
+Singleton class design pattern
+
+87. When do we need Constructor Overloading?
+Sometimes there is a need of initializing an object in different ways. This can be done using constructor overloading. Different constructors can do different work by implementing different line of codes and are called based on the type and no of parameters passed.
+According to the situation , a constructor is called with specific number of parameters among overloaded constructors.
+
+88.Do we have destructors in Java?
+No, Because Java is a garbage collected language you cannot predict when (or even if) an object will be destroyed. Hence there is no direct equivalent of a destructor.
+
+89.Is there any method to call a sub-class constructor from a superclass constructor?
+The subclass constructor has its own private data members, so Java does not provide any way to access the sub-class constructor from a super class constructor. However, we can call a superclass constructor from a sub-class constructor by using the super keyword.
+
+90.Can we have a constructor in the Interface?
+No, we cannot have constructors in the Java interface.
+
+91.  What is Is-A relationship in Java?
+
+Ans: Is-A relationship represents Inheritance. It is implemented using the “extends” keyword. It is used for code reusability.
+
+92. How is Inheritance implemented/achieved in Java?
+
+Ans: Inheritance can be implemented or achieved by using two keywords:
+
+extends: extends is a keyword that is used for developing the inheritance between two classes and two interfaces.
+implements: implements keyword is used for developing the inheritance between a class and interface.
+
+93. Which class in Java is superclass of every other class?
+
+Ans: In Java, Object class is the superclass of every other class.
+
+94. Can a class extend itself?
+
+Ans: No, a class cannot extend itself.
+
+95. Can we assign superclass to subclass?
+
+Ans: No.
+
+96.  Can a class extend more than one class?
+
+Ans: No, one class can extend only a single class.
+
+97. Are static members inherited to subclass in Java?
+
+Ans: Static block cannot be inherited to its subclass.
+
+A static method of superclass is inherited to the subclass as a static member and non-static method is inherited as a non-static member only.
+
+98. Can we extend (inherit) final class?
+
+Ans: No, a class declared with final keyword cannot be inherited.
+
+99. Can a final method be overridden?
+
+Ans: No, a final method cannot be overridden.
+
+100. Can we inherit private members of base class to its subclass?
+
+Ans: No.
+
+101. What is order of calling constructors in case of inheritance?
+
+Ans: In case of inheritance, constructors are called from the top to down hierarchy.
+
+102. . Which keyword do you use to define a subclass?
+Or, which keyword is used to inherit a class?
+
+Ans: extends keyword.
+
+103. What are the advantages of inheritance in Java?
+
+Ans: The advantages of inheritance in java are as follows:
+
+We can minimize the length of duplicate code in an application by putting the common code in the superclass and sharing it amongst several subclasses.
+Due to reducing the length of code, the redundancy of the application is also reduced.
+Inheritance can also make application code more flexible to change.
+
+104. What are the types of inheritance in Java?
+Ans: The various types of inheritance are as follows:
+
+a. Single inheritance
+b. Multi-level inheritance
+c. Hierarchical inheritance
+d. Multiple inheritance
+e. Hybrid inheritance
+
+105. hat are the various forms of inheritance available in Java?
+
+Ans: The various forms of inheritance to use are single inheritance, hierarchical inheritance, and multilevel inheritance.
+
+106. Why multiple inheritance is not supported in java through class?
+Ans: Multiple inheritance means that one class extends two superclasses or base classes but in Java, one class cannot extend more than one class simultaneously. At most, one class can extend only one class.
+
+Therefore, to reduce ambiguity, complexity, and confusion, Java does not support multiple inheritance through classes.
+
+107.How does Multiple inheritance implement in Java?
+
+Ans: Multiple inheritance can be implemented in Java by using interfaces. A class cannot extend more than one class but a class can implement more than one interface.
+
+108.  What is Hybrid inheritance in java? How will you achieve it?
+
+Ans: A hybrid inheritance in java is a combination of single and multiple inheritance. It can be achieved through interfaces.
+
+109. How will you restrict a member of a class from inheriting its subclass?
+
+Ans: We can restrict members of a class by declaring them private because the private members of superclass are not available to the subclass directly. They are only available in their own class.
+
+110. Can we access subclass members if we create an object of superclass?
+
+Ans: No, we can access only superclass members but not the subclass members.
+
+111. Can we access both superclass and subclass members if we create an object of subclass?
+
+Ans: Yes, we can access both superclass and subclass members.
+
+112. What happens if both superclass and subclass have a field with the same name?
+
+Ans: Only subclass members are accessible if an object of subclass is instantiated.
+
+113. Which of the following is correct way of inheriting class A by class B?
+
+a) class B + class A { }
+b) class B inherits class A { }
+c) class B extends A { }
+d) class B extends class A { }
+
+Ans: c
+
+114.  Is interface inherited from the Object class?
+
+Ans: No.
+
+115. Find output?
+Ans. 	class Base 
+{
+    	public void show() 
+	{
+       		System.out.println("Base::show() called");
+    	}
+}
+ 
+class Derived extends Base 
+{
+    	public void show() 
+	{
+       		System.out.println("Derived::show() called");
+    	}
+}
+ 
+class Main 
+{
+    	public static void main(String[] args) 
+	{
+        	Base b = new Derived();;
+        	b.show();
+    	}
+}
+ans.Derived::show() called
+
+116. class Base 
+{
+    	final public void show() 
+	{
+       		System.out.println("Base::show() called");
+    	}
+}
+  
+class Derived extends Base 
+{
+    	public void show() 
+	{
+       		System.out.println("Derived::show() called");
+    	}
+}
+  
+class Test 
+{
+    	public static void main(String[] args) 
+	{
+        	Base b = new Derived();;
+        	b.show();
+    	}
+}
+ans. complie time error;
+
+117. class Base 
+{
+    	public static void show() 
+	{
+       		System.out.println("Base::show() called");
+    	}
+}
+  
+class Derived extends Base 
+{
+    	public static void show() 
+	{
+       		System.out.println("Derived::show() called");
+    	}
+}
+  
+class Test 
+{
+    	public static void main(String[] args) 
+	{
+        	Base b = new Derived();
+        	b.show();
+    	}
+}
+ans.Base::show() called
+Runtime polymorphism not happen when method is static.
+
+118.Which of the following is true about inheritance in Java?
+
+1) Private methods are final.
+2) Protected members are accessible within a package and 
+   inherited classes outside the package.
+3) Protected methods are final.
+4) We cannot override private methods. 
+
+ans. 1) is correct.
+
+119.class Base 
+{
+    	public void Print() 
+	{
+        	System.out.println("Base");
+    	}         
+}
+ 
+class Derived extends Base 
+{    
+    	public void Print() 
+	{
+        	System.out.println("Derived");
+    	}
+}
+ 
+class Test
+{
+    	public static void DoPrint( Base o ) 
+	{
+        	o.Print();   
+    	}
+    	public static void main(String[] args) 
+	{
+        	Base x = new Base();
+        	Base y = new Derived();
+        	Derived z = new Derived();
+        	DoPrint(x);
+        	DoPrint(y);
+        	DoPrint(z);
+    	}
+}
+ans. Base
+Derived
+Derived
+
+120.class Base 
+{
+    	public void foo() 
+	{ 
+		System.out.println("Base"); 
+	}
+}
+  
+class Derived extends Base 
+{
+    	private void foo() 
+	{ 
+		System.out.println("Derived"); 
+	} 
+}
+  
+class Test 
+{
+    	public static void main(String args[]) 
+	{
+        	Base b = new Derived();
+        	b.foo();
+    	}
+} 
+ans. It is compiler error to give more restrictive access to a derived class function which overrides a base class function.
+
+121. class Grandparent 
+{
+    	public void Print() 
+	{
+        	System.out.println("Grandparent's Print()");
+    	}
+}
+ 
+class Parent extends Grandparent 
+{
+    	public void Print() 
+	{
+        	System.out.println("Parent's Print()");
+    	}
+}
+ 
+class Child extends Parent 
+{
+    	public void Print() 
+	{
+        	super.super.Print(); 
+        	System.out.println("Child's Print()");
+    	}
+}
+ 
+class Main 
+{
+    	public static void main(String[] args) 
+	{
+        	Child c = new Child();
+        	c.Print();
+    	}
+}
+ans. Compile time error.
+In Java, it is not allowed to do super.super. We can only access Grandparent's members using Parent.
+
+122. final class Complex 
+{ 
+    	private final double re;
+    	private final double im;
+ 
+    	public Complex(double re, double im) 
+	{
+        	this.re = re;
+        	this.im = im;
+    	}
+ 
+    	public String toString() 
+	{
+        	return "(" + re + " + " + im + "i)";
+    	}
+}
+ 
+class Main 
+{
+  	public static void main(String args[])
+  	{
+       		Complex c = new Complex(10, 15);
+       		System.out.println("Complex number is " + c);
+  	}         
+}
+ans. Complex number is (10.0 + 15.0i)
+
+123.  What is an interface in Java?
+
+Ans: An interface in Java is a mechanism that is used to achieve complete abstraction. It is basically a kind of class that contains only constants and abstract methods.
+
+124.  Can we define private and protected modifiers for data members (fields) in interfaces?
+
+Ans: No, we cannot define private and protected modifiers for variables in interface because the fields (data members) declared in an interface are by default public, static, and final.
+
+125.  Which modifiers are allowed for methods in an Interface?
+
+Ans: Only abstract and public modifiers are allowed for methods in interfaces.
+
+126. Suppose A is an interface. Can we create an object using new A()?
+
+Ans: No, we cannot create an object of interface using new operator. But we can create a reference of interface type and interface reference refers to objects of its implementation classes.
+
+127.  Can we define an interface with a static modifier?
+
+Ans: Yes, from Java 8 onwards, we can define static and default methods in an interface. Prior to Java 8, it was not allowed.
+
+128. Suppose A is an interface. Can we declare a reference variable a with type A like this: A a;
+
+Ans: Yes.
+
+129.  Can an interface extends another interface in Java?
+
+Ans: Yes, an interface can extend another interface.
+
+130.  Can an interface implement another interface?
+
+Ans: No, an interface cannot implement another interface.
+
+131.  Is it possible to define a class inside an interface?
+
+Ans: Yes, we can define a class inside an interface.
+
+132. Which of the following is a correct representation of interface?
+a) public abstract interface A {
+    abstract void m1() {};
+   }
+b) public abstract interface A {
+    void m1();
+   }
+c) abstract interface A extends B, C {
+     void m1();
+   }
+d) abstract interface A extends B, C {
+    void m1(){};
+   }
+e) abstract interface A {
+    m1();
+   }
+f) interface A {
+    void m1();
+   }
+g) interface A {
+    int m1();
+   }
+h) public interface A {
+    void m1();
+   }
+   public class B implements A { 
+   }
+i) public interface A {
+     void m1();
+   }
+   Public interface B {
+     void m1();
+   }
+   public interface C extends A, B {
+    void m1();
+   }
+Ans: b, c, f, g, i.
+
+133. Identify the error in the following code.
+
+a)
+
+interface A {
+ void m1();
+}
+public class B implements A {
+void m1(){
+  System.out.println("One"); 	
+ }
+}
+Ans: We cannot reduce the visibility of inherited method from interface A.
+
+b)
+
+interface A {
+ A() { }	
+ void m1();
+}
+public abstract class B implements A {
+public void m1(){
+  System.out.println("One"); 	
+ }
+}
+Ans: An interface cannot have a constructor.
+
+134.  Can an interface extend multiple interfaces?
+
+Ans: Yes, an interface can extend multiple interfaces.
+
+135. Can an interface has instance and static blocks?
+
+Ans: No.
+
+136. interface A {
+	 int x = 10;	
+}
+interface B {
+ 	int x = 20;
+}
+interface C extends A, B{
+ 	int x = 30;
+	public static void main(String[] args){
+ 	int a = A.x;
+ 	int b = B.x;
+ 	int c = C.x;
+ 
+ 	System.out.println(a);
+ 	System.out.println(b);
+ 	System.out.println(c);
+ }
+}
+ans.Output: 10, 20, 30;
+
+137.  What happens if a class has implemented an interface but has not provided implementation for that method defined in Interface?
+
+Ans: The class has to be declared with an abstract modifier. This will be enforced by the Java compiler.
+
+138. Why an Interface method cannot be declared as final in Java?
+Or, Can a method within an interface be marked as final?
+
+Ans: Not possible. Doing so will result the compilation error problem. This is because a final method cannot be overridden in java. But an interface method should be implemented by another class.
+
+So, the interface method cannot be declared as final. The modifiers such as public and abstract are only applicable for method declaration in an interface.
+
+139.  Can an interface be final?
+
+Ans: No. Doing so will result compilation error problem.
+
+140. Why an interface cannot have a constructor?
+
+Ans: Inside an interface, a constructor cannot be called using super keyword with hierarchy.
+
+141.  Why an Interface can extend more than one Interface but a Class can’t extend more than one Class?
+
+Ans: We know that Java doesn’t allow multiple inheritance because a class extends only one class. But an Interface is a pure abstraction model. It does not have inheritance hierarchy like classes.
+
+Therefore, an interface allows to extend more than one Interface.
+
+142.  What is the use of interface in Java?
+Or, why do we use an interface in Java?
+
+Ans: There are many reasons to use interface in java. They are as follows:
+
+a. An interface is used to achieve fully abstraction.
+b. Using interfaces is the best way to expose our project’s API to some other project.
+c. Programmers use interface to customize features of software differently for different objects.
+d. By using interface, we can achieve the functionality of multiple inheritance.
+
+143.  Is it necessary to implement all abstract methods of an interface?
+
+Ans: Yes, all the abstract methods defined in interface must be implemented.
+
+144. Can we define a variable in an interface? What type it should be?
+
+Ans: Yes, we can define variable in an interface that must be implicitly static and final.
+
+145. Can we re-assign a value to a variable of interface?
+
+Ans: No, variables defined inside the interface are static and final by default. They are just like constants. We can’t change their value once they got.
+
+146.  What is a Marker Interface in Java?
+
+Ans: An Interface that doesn’t have any data members or methods is called marker interface in java. For example, Serializable, Cloneable, Remote, etc.
+
+147. Can we reduce the visibility of interface method while overriding?
+
+Ans: No, while overriding any interface methods, we must use public only. This is because all interface methods are public by default. We cannot reduce the visibility while overriding them.
+
+148.  Can we define an interface inside a method as local member?
+
+Ans: No, we can’t define an interface as local member of a method like local inner class.
+
+149. interface A {	
+ void m1(int x, double y);	
+ void m2(String z);
+}
+class B implements A {
+public void m1(int x, double y) {
+  System.out.println("Hello");	 
+ }
+ public void m2(String z){
+  System.out.println("Java");	 
+ }
+ void m3() {
+  System.out.println("Hello Java!");	 
+ }
+}
+public class Test {
+public static void main(String[] args){
+ B b = new B();
+ b.m1(20, 10.0);
+ b.m2(null);
+ b.m3();
+ }
+}
+Ans: Yes, the code will be compiled successfully. The output is Hello, Java, Hello Java!.
+
+150.can we define any class static?
+ans. it will show an error, not allowed.
+
+151.
+What is nested class in java? Give syntax?
+When class is defined within another class,such class is called a nested class.
+Syntax:
+class Outer
+{
+    ...
+    class Nested
+    {
+        ...
+    }
+}
+
+152. What are the types of nested class?
+There are two types of nested class in java.
+Static Nested Classes
+Non-static Nested Classes OR Inner Classes.
+Member Inner Classes
+Local Inner Classes
+Anonymous Inner Classes
+
+153. What is static nested class?
+If the nested class is static, then it's called a static nested class. Only static members of the outer class are accessible to static nested classes, including private. Non-static (instance) data members cannot be accessed by the static nested class. A static nested class is the same as any other top-level class, with the exception that it is nested for packaging purposes. The following statement can be used to create a static class object.
+
+154. What is java inner class?
+In Java, an inner class is any non-static nested class. Java inner classes are linked to the class's object and have access to all of the outer class variables and functions. We can't have any static variables in inner classes because inner classes are associated with the instance. Although we know that a class cannot be associated with the private access modifier, if the class is a member of another class, the inner class can be declared private.
+
+155. What is the difference between the following two code lines ?
+
+1. new OuterClass().new InnerClass();
+
+2. new OuterClass.InnerClass();	
+Ans. In first case we are trying to initialize Inner class object using the instance of Outer Class whereas in second case we are trying to initialize the Inner class object directly using the Outer class name.
+
+In second case , Inner class is "static inner class" as we cannot access "non static inner class" using Classname alone.
+
+In first case, the inner class could be either "static inner class" or "non static inner class".
+
+156. Which access specifier can be used with Class ?
+Ans. For top level class we can only use "public" and "default". We can use private with inner class.
+
+157.  Which of following can be nested into another ?	Core Java
+a. class within another class
+b. class within interface
+c. interface within class
+d. All of above
